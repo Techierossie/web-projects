@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('ksta.jpeg'); 
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-size: cover;
+    position: relative;
+    opacity: 0.7;
+}
+
+.ksta {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100vh;
+    align-items: center;
+    color: black;
+    margin: auto;
+    padding: 20px;
+    margin-top:50px ;
+    margin-bottom:50px;
+    border-radius: 20px;
+    background-color:grey;
+    background: transparent 0.5px; 
+    box-shadow: 0 5px 10px 5px;  
+    outline: 1px solid;
+}
+
+h2{
+    color: orangered;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top:10px;
+    background-color: white;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: orangered;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: 19px;
+    color: black;
+
+}
+
+button{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: green;
+    font-size: 17px;
+    color: white;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    border:none ;
+    margin: auto;
+    margin-top: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
